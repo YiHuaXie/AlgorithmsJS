@@ -7,6 +7,12 @@
  * 时间复杂度：O(M+N)
  * 空间复杂度：O(1)
  */
+
+/**
+ * @param {number[][]} matrix
+ * @param {number} target
+ * @return {boolean}
+ */
 const jz_findNumberIn2DArray = (matrix, target) => {
     const sectionCount = matrix.length
     if (sectionCount === 0) return false

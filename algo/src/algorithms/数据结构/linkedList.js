@@ -56,7 +56,7 @@ export class SingleLinkedList {
     /**
      * 插入结点
      * @param {ListNode} node 
-     * @param {Int} index 
+     * @param {Number} index 
      */
     insert(node, index) {
         if (!this.head || index <= 0) {

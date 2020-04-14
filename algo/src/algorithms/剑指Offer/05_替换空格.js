@@ -11,6 +11,11 @@
  * 时间复杂度：O(n)
  * 空间复杂度：O(n)
  */
+
+/**
+ * @param {string} s 
+ * @return {string} 
+ */
 const jz_replaceSpace = s => {
     if (!s || !s.length) return ""
 

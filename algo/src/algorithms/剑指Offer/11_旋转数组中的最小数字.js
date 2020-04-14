@@ -23,6 +23,11 @@
  * 空间复杂度：O(1)
  * 
  */
+
+/**
+ * @param {number[]} numbers
+ * @return {number}
+ */
 const jz_minNumInRotateArray = nums => {
     if (!nums || !nums.length) { return null }
 

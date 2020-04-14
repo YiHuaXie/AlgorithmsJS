@@ -17,6 +17,11 @@
  * 时间复杂度：O(n)，虽然是有双重循环，但是最多调整n-1次就可以完成数组重排
  * 空间复杂度：O(1)
  */
+
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
 const jz_findRepeatNumber = nums => {
     // let result = []
     for (let i = 0; i < nums.length; i++) {

@@ -9,6 +9,7 @@
  * 在执行出队操作的时候，当stackB为空且stackA有值的时候，stackA出栈，stackB入栈。
  * stackA的出栈顺序为stackB的入栈顺序。stackB有值，stackB直接出栈即可。
  */
+
 class CQueue {
     constructor() {
         this.stackA = []

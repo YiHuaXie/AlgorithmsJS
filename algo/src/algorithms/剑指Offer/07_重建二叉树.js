@@ -20,6 +20,12 @@ import { TreeNode, postorderTraversal } from "../数据结构/BinaryTree"
  * 右子树的分析也是如上
  * 
  */
+
+/**
+ * @param {number[]} preorder
+ * @param {number[]} inorder
+ * @return {TreeNode}
+ */
 const jz_buildTree = (preorder, inorder) => {
     if (!preorder || !preorder.length || !inorder || !inorder.length) {
         return null

@@ -8,6 +8,12 @@ import { SingleLinkedList } from '../数据结构/linkedList';
  * 时间复杂度：O(n)
  * 空间复杂度：O(n)
  */
+
+/**
+ * 
+ * @param {TreeNode} head 
+ * @return {number[]}
+ */
 const jz_reversePrint = head => {
     // 使用数组来模拟堆栈结构
     const stack = [];
