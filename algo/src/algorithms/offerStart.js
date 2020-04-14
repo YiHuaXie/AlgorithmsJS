@@ -8,6 +8,7 @@ import { jz_fibTest } from './剑指Offer/10_1_斐波那契数列';
 import { jz_frogJumpingOnStairsTest } from './剑指Offer/10_2_青蛙跳台阶问题';
 import { jz_minNumInRotateArrayTest } from './剑指Offer/11_旋转数组中的最小数字';
 import { jz_exsitTest } from './剑指Offer/12_矩阵中的路径';
+import { jz_movingCountTest } from './剑指Offer/13_机器人的运动范围';
 
 export const offerStart = () => {
     // jz_reversePrintTest();
@@ -19,5 +20,6 @@ export const offerStart = () => {
     // jz_fibTest()
     // jz_frogJumpingOnStairsTest()
     // jz_minNumInRotateArrayTest()
-    jz_exsitTest()
+    // jz_exsitTest()
+    jz_movingCountTest()
 }
