@@ -26,6 +26,8 @@ import { lc_removeDuplicatesTest } from './LeetCode/26_删除排序数组中的�
 import { lc_reverseStringTest } from './LeetCode/344_反转字符串';
 import { binaryTreeTest } from './数据结构/BinaryTree';
 import { binarySearchTreeTest } from './数据结构/BinarySearchTree';
+import { lc_readBinaryWatchTest } from './LeetCode/401_二进制手表';
+import { lc_letterCasePermutationTest } from './LeetCode/784_字母大小全排列';
 
 export const leetCodeStart = () => {
     // copyRandomListTest();
@@ -58,4 +60,6 @@ export const leetCodeStart = () => {
 
     // binaryTreeTest();
     // binarySearchTreeTest();
+    // lc_readBinaryWatchTest()
+    lc_letterCasePermutationTest()
 }
