@@ -23,5 +23,5 @@ export const offerStart = () => {
     // jz_minNumInRotateArrayTest()
     // jz_exsitTest()
     // jz_movingCountTest()
-    jz_hammingWeightTest()
+    // jz_hammingWeightTest()
 }

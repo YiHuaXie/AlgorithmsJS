@@ -29,6 +29,7 @@ import { binarySearchTreeTest } from './数据结构/BinarySearchTree';
 import { lc_readBinaryWatchTest } from './LeetCode/401_二进制手表';
 import { lc_letterCasePermutationTest } from './LeetCode/784_字母大小全排列';
 import { lc_isAdditiveNumberTest } from './LeetCode/306_累加数';
+import { lc_getSumTest } from './LeetCode/371_两整数之和';
 
 export const leetCodeStart = () => {
     // copyRandomListTest();
@@ -64,4 +65,5 @@ export const leetCodeStart = () => {
     // lc_readBinaryWatchTest()
     // lc_letterCasePermutationTest()
     // lc_isAdditiveNumberTest()
+    lc_getSumTest()
 }
