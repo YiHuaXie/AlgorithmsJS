@@ -62,6 +62,6 @@ export const leetCodeStart = () => {
     // binaryTreeTest();
     // binarySearchTreeTest();
     // lc_readBinaryWatchTest()
-    lc_letterCasePermutationTest()
-    lc_isAdditiveNumberTest()
+    // lc_letterCasePermutationTest()
+    // lc_isAdditiveNumberTest()
 }
