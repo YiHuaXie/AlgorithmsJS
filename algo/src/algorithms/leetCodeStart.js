@@ -33,6 +33,8 @@ import { lc_getSumTest } from './LeetCode/371_两整数之和';
 import { lc_findTheDifferenceTest } from './LeetCode/389_找不同';
 import { lc_singleNumberTest } from './LeetCode/136_只出现一次的数字';
 import { lc_hammingDistanceTest } from './LeetCode/461_汉明距离';
+import { lc_isPowerOfThreeTest } from './LeetCode/326_3的幂';
+import { lc_isPowerOfFourTest } from './LeetCode/342_4的幂';
 
 export const leetCodeStart = () => {
     // copyRandomListTest();
@@ -71,5 +73,7 @@ export const leetCodeStart = () => {
     // lc_getSumTest()
     // lc_findTheDifferenceTest()
     // lc_singleNumberTest()
-    lc_hammingDistanceTest()
+    // lc_hammingDistanceTest()
+    // lc_isPowerOfThreeTest()
+    lc_isPowerOfFourTest()
 }
