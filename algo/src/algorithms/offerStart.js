@@ -10,6 +10,8 @@ import { jz_minNumInRotateArrayTest } from './剑指Offer/11_旋转数组中的�
 import { jz_exsitTest } from './剑指Offer/12_矩阵中的路径';
 import { jz_movingCountTest } from './剑指Offer/13_机器人的运动范围';
 import { jz_hammingWeightTest } from './剑指Offer/15_二进制中1的个数';
+import { jz_myPowTest } from './剑指Offer/16_数值的整数次方';
+import { jz_printNumbersTest } from './剑指Offer/17_打印从1到最大的n位数';
 
 export const offerStart = () => {
     // jz_reversePrintTest();
@@ -24,4 +26,6 @@ export const offerStart = () => {
     // jz_exsitTest()
     // jz_movingCountTest()
     // jz_hammingWeightTest()
+    // jz_myPowTest()
+    jz_printNumbersTest()
 }
