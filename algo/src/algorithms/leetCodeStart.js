@@ -75,5 +75,5 @@ export const leetCodeStart = () => {
     // lc_singleNumberTest()
     // lc_hammingDistanceTest()
     // lc_isPowerOfThreeTest()
-    lc_isPowerOfFourTest()
+    // lc_isPowerOfFourTest()
 }
