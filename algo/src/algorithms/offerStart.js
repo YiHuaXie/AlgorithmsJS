@@ -14,6 +14,8 @@ import { jz_myPowTest } from './剑指Offer/16_数值的整数次方';
 import { jz_printNumbersTest } from './剑指Offer/17_打印从1到最大的n位数';
 import { jz_deleteNodeTest } from './剑指Offer/18_删除链表的节点';
 import { jz_exchangeTest } from './剑指Offer/21_调整数组顺序使奇数位于偶数前面';
+import { jz_getKthFromEndTest } from './剑指Offer/22_链表中的倒数第K个结点';
+import { jz_mergeTwoListsTest } from './剑指Offer/25_合并两个有序的链表';
 
 export const offerStart = () => {
     // jz_reversePrintTest();
@@ -31,5 +33,7 @@ export const offerStart = () => {
     // jz_myPowTest()
     // jz_printNumbersTest()
     // jz_deleteNodeTest()
-    jz_exchangeTest()
+    // jz_exchangeTest()
+    // jz_getKthFromEndTest()
+    jz_mergeTwoListsTest()
 }
