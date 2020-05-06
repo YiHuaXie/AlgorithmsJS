@@ -17,6 +17,7 @@ import { jz_exchangeTest } from './剑指Offer/21_调整数组顺序使奇数位
 import { jz_getKthFromEndTest } from './剑指Offer/22_链表中的倒数第K个结点';
 import { jz_mergeTwoListsTest } from './剑指Offer/25_合并两个有序的链表';
 import { jz_entryNodeTest } from './剑指Offer/23_链表中环的入口结点';
+import { jz_isSubStructureTest } from './剑指Offer/26_树的子结构';
 
 export const offerStart = () => {
     // jz_reversePrintTest();
@@ -37,5 +38,6 @@ export const offerStart = () => {
     // jz_exchangeTest()
     // jz_getKthFromEndTest()
     // jz_mergeTwoListsTest()
-    jz_entryNodeTest()
+    // jz_entryNodeTest()
+    jz_isSubStructureTest()
 }

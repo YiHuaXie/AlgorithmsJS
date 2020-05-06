@@ -11,7 +11,7 @@ import { SingleLinkedList } from '../数据结构/linkedList';
 
 /**
  * 
- * @param {TreeNode} head 
+ * @param {ListNode} head 
  * @return {number[]}
  */
 const jz_reversePrint = head => {
