@@ -18,6 +18,8 @@ import { jz_getKthFromEndTest } from './剑指Offer/22_链表中的倒数第K个
 import { jz_mergeTwoListsTest } from './剑指Offer/25_合并两个有序的链表';
 import { jz_entryNodeTest } from './剑指Offer/23_链表中环的入口结点';
 import { jz_isSubStructureTest } from './剑指Offer/26_树的子结构';
+import { jz_mirrorTreeTest } from './剑指Offer/27_二叉树的镜像';
+import { jz_isSymmetricTest } from './剑指Offer/28_对称的二叉树';
 
 export const offerStart = () => {
     // jz_reversePrintTest();
@@ -39,5 +41,7 @@ export const offerStart = () => {
     // jz_getKthFromEndTest()
     // jz_mergeTwoListsTest()
     // jz_entryNodeTest()
-    jz_isSubStructureTest()
+    // jz_isSubStructureTest()
+    // jz_mirrorTreeTest()
+    jz_isSymmetricTest()
 }
