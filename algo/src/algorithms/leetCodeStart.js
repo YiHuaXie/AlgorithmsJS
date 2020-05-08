@@ -35,6 +35,7 @@ import { lc_singleNumberTest } from './LeetCode/136_只出现一次的数字';
 import { lc_hammingDistanceTest } from './LeetCode/461_汉明距离';
 import { lc_isPowerOfThreeTest } from './LeetCode/326_3的幂';
 import { lc_isPowerOfFourTest } from './LeetCode/342_4的幂';
+import { lc_swapPairsTest } from './LeetCode/24_两两交换链表中的节点';
 
 export const leetCodeStart = () => {
     // copyRandomListTest();
@@ -76,4 +77,5 @@ export const leetCodeStart = () => {
     // lc_hammingDistanceTest()
     // lc_isPowerOfThreeTest()
     // lc_isPowerOfFourTest()
+    lc_swapPairsTest()
 }
