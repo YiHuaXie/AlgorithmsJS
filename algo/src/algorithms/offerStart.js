@@ -20,6 +20,7 @@ import { jz_entryNodeTest } from './剑指Offer/23_链表中环的入口结点';
 import { jz_isSubStructureTest } from './剑指Offer/26_树的子结构';
 import { jz_mirrorTreeTest } from './剑指Offer/27_二叉树的镜像';
 import { jz_isSymmetricTest } from './剑指Offer/28_对称的二叉树';
+import { jz_spiralOrderTest } from './剑指Offer/29_顺时针打印矩阵';
 
 export const offerStart = () => {
     // jz_reversePrintTest();
@@ -43,5 +44,6 @@ export const offerStart = () => {
     // jz_entryNodeTest()
     // jz_isSubStructureTest()
     // jz_mirrorTreeTest()
-    jz_isSymmetricTest()
+    // jz_isSymmetricTest()
+    jz_spiralOrderTest()
 }
