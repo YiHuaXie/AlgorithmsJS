@@ -1,4 +1,4 @@
-import { SingleLinkedList, ListNode } from '../数据结构/linkedList'
+import { SingleLinkedList, ListNode } from '../数据结构/LinkedList'
 /**
  * 题目地址：https://leetcode-cn.com/problems/add-two-numbers/
  * 

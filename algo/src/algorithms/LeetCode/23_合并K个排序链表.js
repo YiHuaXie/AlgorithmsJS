@@ -1,5 +1,5 @@
 import { lc_mergeTwoLists } from "./21_合并两个有序链表";
-import { SingleLinkedList } from "../数据结构/linkedList";
+import { SingleLinkedList } from "../数据结构/LinkedList";
 
 /**
  * 题目地址：https://leetcode-cn.com/problems/kth-largest-element-in-an-array/

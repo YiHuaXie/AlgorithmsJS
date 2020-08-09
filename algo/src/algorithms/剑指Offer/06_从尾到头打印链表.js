@@ -1,4 +1,4 @@
-import { SingleLinkedList } from '../数据结构/linkedList';
+import { SingleLinkedList } from '../数据结构/LinkedList';
 
 /**
  * 解题思路，使用堆栈结构

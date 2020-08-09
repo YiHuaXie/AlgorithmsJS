@@ -1,4 +1,4 @@
-import { TreeNode, preorderTraversal, inorderTraversal, postorderTraversal } from "./BinaryTree";
+import { TreeNode, preorderTraversal, inorderTraversal } from "./BinaryTree";
 
 const recursiveBSTFind = (root, x) => {
     if (!root) return null;

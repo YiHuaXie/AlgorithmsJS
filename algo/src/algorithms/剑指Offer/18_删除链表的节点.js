@@ -1,4 +1,4 @@
-import { ListNode, SingleLinkedList } from '../数据结构/linkedList'
+import { ListNode, SingleLinkedList } from '../数据结构/LinkedList'
 
 /**
  * 

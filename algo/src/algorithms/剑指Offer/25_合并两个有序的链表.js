@@ -1,4 +1,4 @@
-import { SingleLinkedList } from "../数据结构/linkedList"
+import { SingleLinkedList } from "../数据结构/LinkedList"
 
 /**
  * 题目地址：https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/
