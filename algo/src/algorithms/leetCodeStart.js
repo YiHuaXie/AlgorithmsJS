@@ -37,6 +37,7 @@ import { lc_isPowerOfThreeTest } from './LeetCode/326_3的幂';
 import { lc_isPowerOfFourTest } from './LeetCode/342_4的幂';
 import { lc_swapPairsTest } from './LeetCode/24_两两交换链表中的节点';
 import { lc_containsDuplicateTest } from './LeetCode/217_存在重复元素';
+import { lc_isHappyTest } from './LeetCode/202_快乐数';
 
 export const leetCodeStart = () => {
     // copyRandomListTest();
@@ -74,10 +75,11 @@ export const leetCodeStart = () => {
     // lc_isAdditiveNumberTest()
     // lc_getSumTest()
     // lc_findTheDifferenceTest()
-    lc_singleNumberTest()
+    // lc_singleNumberTest()
     // lc_hammingDistanceTest()
     // lc_isPowerOfThreeTest()
     // lc_isPowerOfFourTest()
     // lc_swapPairsTest()
     // lc_containsDuplicateTest()
+    lc_isHappyTest()
 }
