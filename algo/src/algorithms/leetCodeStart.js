@@ -40,6 +40,10 @@ import { lc_containsDuplicateTest } from './LeetCode/217_存在重复元素';
 import { lc_isHappyTest } from './LeetCode/202_快乐数';
 import { lc_isIsomorphicTest } from './LeetCode/205_同构字符串';
 import { lc_findRestaurantTest } from './LeetCode/599_两个列表的最小索引总和';
+import { lc_containsNearbyDuplicateTest } from './LeetCode/219_存在重复元素II';
+import { lc_pivotIndexTest } from './LeetCode/724_寻找数组中的中心索引';
+// import { lc_searchInsertTest } from './LeetCode/35_搜索插入位置';
+// import { lc_characterReplacementTest } from './LeetCode/424_替换后的最长重复字符';
 
 export const leetCodeStart = () => {
     // copyRandomListTest();
@@ -85,6 +89,9 @@ export const leetCodeStart = () => {
     // lc_containsDuplicateTest()
     // lc_isHappyTest()
     // lc_isIsomorphicTest()
-    lc_findRestaurantTest()
-
+    // lc_findRestaurantTest()
+    // lc_containsNearbyDuplicateTest()
+    // lc_characterReplacementTest()
+    // lc_pivotIndexTest()
+    // lc_searchInsertTest()
 }

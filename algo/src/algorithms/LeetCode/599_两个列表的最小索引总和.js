@@ -7,15 +7,11 @@
  * 空间复杂度：O(N)
  */
 const lc_findRestaurant = (list1, list2) => {
-    if (list1.length + list2.length === 0) return []
-
-    let minIndexSum = list1.length + list2.length - 2, result = []
+    let minIndexSum = Number.MAX_SAFE_INTEGER, result = []
     let map = new Map()
     for (let i = 0; i < list1.length; i++) {
         const element = list1[i]
-        if (!map.has(element)) {
-            map.set(element, i)
-        }
+        if (!map.has(element)) map.set(element, i)
     }
 
     for (let i = 0; i < list2.length; i++) {
