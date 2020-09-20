@@ -49,6 +49,7 @@ const quickSortImp2 = (nums) => {
             less.push(nums[i]);
         } else if (nums[i] >= pivot && i !== pivotIndex)  { 
             // 很重要的一点：不能取基准的位置，否则对greater递归的时候会进入死循环。
+            // 或者另外加一个pivotList用于保存与基准相等的元素，但是greater只能存比基准大的值
             greater.push(nums[i]);
         }
     }
