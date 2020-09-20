@@ -46,7 +46,8 @@ const quickSortImp2 = (nums) => {
     for (let i = 0; i < nums.length; i++) {
         if (nums[i] < pivot) {
             less.push(nums[i]);
-        } else if (nums[i] > pivot)  { // 这里只能是大于，不能等于
+        } else if (nums[i] >= pivot && i !== nums.length - 1)  { 
+            // 很重要的一点：不能取基准的位置，否则对greater递归的时候会进入死循环
             greater.push(nums[i]);
         }
     }
@@ -77,6 +78,6 @@ export const quickSortTest = () => {
     quickSortImp1(nums1, 0, nums1.length - 1);
     console.log(nums1);
 
-    const nums2 = [85, 12, 59, 36, 62, 43, 94, 7, 35, 52, 44];
+    const nums2 = [85, 12, 59, 44, 62, 44, 94, 7, 35, 52, 44];
     console.log(quickSortImp2(nums2));
 };
