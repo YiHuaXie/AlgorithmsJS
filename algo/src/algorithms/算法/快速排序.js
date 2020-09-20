@@ -42,12 +42,13 @@ const quickSortImp1 = (nums, left, right) => {
 const quickSortImp2 = (nums) => {
     if (nums.length <= 1) return nums;
     const pivot = getPivot(nums, 0, nums.length - 1);
+    const pivotIndex = nums.length - 1;
     let less = [], greater = [];
     for (let i = 0; i < nums.length; i++) {
         if (nums[i] < pivot) {
             less.push(nums[i]);
-        } else if (nums[i] >= pivot && i !== nums.length - 1)  { 
-            // 很重要的一点：不能取基准的位置，否则对greater递归的时候会进入死循环
+        } else if (nums[i] >= pivot && i !== pivotIndex)  { 
+            // 很重要的一点：不能取基准的位置，否则对greater递归的时候会进入死循环。
             greater.push(nums[i]);
         }
     }
