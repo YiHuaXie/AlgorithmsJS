@@ -46,7 +46,7 @@ const quickSortImp2 = (nums) => {
     for (let i = 0; i < nums.length; i++) {
         if (nums[i] < pivot) {
             less.push(nums[i]);
-        } else if (nums[i] > pivot)  {
+        } else if (nums[i] > pivot)  { // 这里只能是大于，不能等于
             greater.push(nums[i]);
         }
     }
