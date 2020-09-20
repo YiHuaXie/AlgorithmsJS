@@ -15,7 +15,9 @@ const binarySearch = (nums, target) => {
  */
 const binarySearchImp1 = (nums, target, left, right) => {
     const mid = parseInt((left + right) / 2);
-    // 处理边界问题
+    // 处理边界问题：为什么说left > right是超出边界了，初始状态下left和right指向的是数组的两端，
+    // left只会右移，right只会左移，left右移说明nums[mid] < targe，right左移说明nums[mid] > target。
+    // 只要left和right还在移动说明查找还在继续，因此当left > right则说明已经遍历完数组了
     if (left > right) return false;
 
     if (nums[mid] > target) {
