@@ -1,11 +1,10 @@
-import { learningStart } from './BasicKnowledgeStart';
 import { leetCodeStart } from './leetCodeStart';
 import { offerStart } from './offerStart';
-import { BasicKnowledgeStart } from './BasicKnowledgeStart';
+import { KnowledgeStart } from './knowledgeStart';
 
 export const algorithmsStart = () => {
     console.log("===============数据结构与算法的基础知识===============");
-    BasicKnowledgeStart();
+    KnowledgeStart();
     console.log("==============================");
     console.log("===============LeetCode===============");
     leetCodeStart();
